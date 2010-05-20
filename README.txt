@@ -25,13 +25,7 @@
 
   Credits
   -------
-
-  This software was created at MIT and originally written
-  and conceived in 2006 by Stefano Mazzocchi <stefano@apache.org> 
-  while working for the SIMILE Project (http://simile.mit.edu/).
   
-  He then returned to work on it in 2010 while working 
-  for Metaweb Technologies Inc (http://www.metaweb.com).
   
   This is the full list of contributors (in chronological order):
 

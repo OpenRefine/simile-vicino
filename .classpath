@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/ant-tools-1.8.0.jar" sourcepath="lib-src/ant-tools-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/arithcode-1.1.jar" sourcepath="lib-src/arithcode-1.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/secondstring-20100303.jar" sourcepath="lib-src/secondstring-20100303-sources.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
