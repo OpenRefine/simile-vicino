@@ -86,6 +86,15 @@ public class NGramClusterer extends Clusterer {
                                 l = cluster_map.get(a);
                             }
                             l.add(b);
+                            Set<Serializable> l2 = null; 
+                            if (!cluster_map.containsKey(b)) {
+                                l2 = new TreeSet<Serializable>();
+                                l2.add(b);
+                                cluster_map.put(b, l2);
+                            } else {
+                                l2 = cluster_map.get(b);
+                            }
+                            l2.add(a);
                         }
                     }
                 }
