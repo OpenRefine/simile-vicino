@@ -36,9 +36,9 @@
   </scm>
   <dependencies>
     <dependency>
-      <groupId>org.openrefine.dependencies</groupId>
-      <artifactId>secondstring</artifactId>
-      <version>20100303</version>
+      <groupId>com.wcohen</groupId>
+      <artifactId>com.wcohen.secondstring</artifactId>
+      <version>0.1</version>
     </dependency>
     <dependency>
       <groupId>org.openrefine.dependencies</groupId>
