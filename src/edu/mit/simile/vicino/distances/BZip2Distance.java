@@ -3,7 +3,7 @@ package edu.mit.simile.vicino.distances;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import org.apache.tools.bzip2.CBZip2OutputStream;
+import org.apache.commons.compress.bzip2.CBZip2OutputStream;
 
 public class BZip2Distance extends PseudoMetricDistance {
 
