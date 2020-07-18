@@ -3,8 +3,8 @@ package edu.mit.simile.vicino.distances;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import com.colloquial.arithcode.ArithCodeOutputStream;
-import com.colloquial.arithcode.PPMModel;
+import com.colloquial.arithcode.ppm.ArithCodeOutputStream;
+import com.colloquial.arithcode.ppm.PPMModel;
 
 public class PPMDistance extends PseudoMetricDistance {
 
