@@ -34,4 +34,21 @@
     <developerConnection>scm:git:https://github.com/OpenRefine/simile-vicino.git</developerConnection>
     <url>https://github.com/OpenRefine/simile-vicino</url>
   </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.openrefine.dependencies</groupId>
+      <artifactId>secondstring</artifactId>
+      <version>20100303</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openrefine.dependencies</groupId>
+      <artifactId>arithcode</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.ant</groupId>
+      <artifactId>ant</artifactId>
+      <version>1.8.0</version>
+    </dependency>
+  </dependencies>
 </project>
