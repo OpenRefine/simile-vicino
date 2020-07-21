@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.openrefine.dependencies</groupId>
+  <artifactId>vicino</artifactId>
+  <version>1.1</version>
+  <name>SIMILE Vicino</name>
+  <url>https://github.com/OpenRefine/simile-vicino</url>
+  <description>Vicino is near-neightbor search tool. The idea is be able to query data by distance search, with pluggable distance functions.</description>
+  <licenses>
+    <license>
+      <name>3-Clause BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stefanom</id>
+      <name>Stefano Mazzocchi</name>
+      <email>stefano@metaweb.com</email>
+    </developer>
+    <developer>
+      <id>paolo</id>
+      <name>Paolo Ciccarese</name>
+      <email>paolo.ciccarese@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/OpenRefine/simile-vicino.git</connection>
+    <developerConnection>scm:git:https://github.com/OpenRefine/simile-vicino.git</developerConnection>
+    <url>https://github.com/OpenRefine/simile-vicino</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.wcohen</groupId>
+      <artifactId>com.wcohen.secondstring</artifactId>
+      <version>0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openrefine.dependencies</groupId>
+      <artifactId>arithcode</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-compress</groupId>
+      <artifactId>commons-compress</artifactId>
+      <version>20050911</version>
+    </dependency>
+  </dependencies>
+</project>
