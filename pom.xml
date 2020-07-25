@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.openrefine.dependencies</groupId>
   <artifactId>vicino</artifactId>
-  <version>1.1</version>
+  <version>1.2</version>
   <name>SIMILE Vicino</name>
   <url>https://github.com/OpenRefine/simile-vicino</url>
   <description>Vicino is near-neightbor search tool. The idea is be able to query data by distance search, with pluggable distance functions.</description>
@@ -43,7 +43,7 @@
     <dependency>
       <groupId>org.openrefine.dependencies</groupId>
       <artifactId>arithcode</artifactId>
-      <version>1.1</version>
+      <version>1.2</version>
     </dependency>
     <dependency>
       <groupId>commons-compress</groupId>
