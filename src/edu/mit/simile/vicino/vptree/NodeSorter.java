@@ -10,10 +10,10 @@ public class NodeSorter {
     }
     
     /**
-     * Sort array of Objects using the QuickSort algorithm.
+     * Sort array of Nodes using the QuickSort algorithm.
      * 
-     * @param s
-     *            An Object[].
+     * @param nodes
+     *            An array of Node
      * @param lo
      *            The current lower bound.
      * @param hi
